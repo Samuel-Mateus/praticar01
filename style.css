@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  font-family: "Poppins", serif;
+}
+header {
+  color: black;
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(59, 86, 43);
+  color: white;
+  padding: 20px;
+}
+
+.menu-principal {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-principal li {
+  margin: 0 15px;
+}
+
+.menu-principal a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.parallax {
+  background-image: url(1000.jpg);
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content {
+  text-align: center;
+  position: relative;
+  padding: 50px 20px;
+  font-family: font-family: "Anton", sans-serif;;
+}
+
+.nossa-historia h2 {
+  text-align: center;
+}
+
+.lenha {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.nossa-historia p {
+  text-align: center;
+  padding: 50px 20px;
+  background: #fff;
+}
+
+.contato h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whats{
+  display: block;
+  margin: 0 auto;
+}
+
+.contato h3 {
+  text-align: center;
+}
+
+.confra h2 {
+  text-align: center;
+}
+
+.evento{
+  text-align: center;
+}
+
+.visite h2{
+  text-align: center;
+  box-shadow: 14px;
+}
+
+.direita {
+  text-align: left;
+}
+
+.esquerda{
+  text-align: right;
+}
+
+.esquerda p {
+  text-align: right;
+}
